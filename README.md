@@ -72,7 +72,7 @@ The project generates the following outputs:
 
 <img width="1116" height="590" alt="image" src="https://github.com/user-attachments/assets/3dc18657-dfbc-411e-b754-a3b4c01cbefe" />
 
-##Chi-Square Test Results
+## Chi-Square Test Results
 
 | Frame | P-Value | Result |
 |---|---|---|
