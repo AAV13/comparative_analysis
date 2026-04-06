@@ -32,10 +32,16 @@ The pipeline performs the following tasks:
 
 ## Dataset Structure
 The script expects the dataset to be unzipped and organized in the following structure:
+```
+├── Dataset_Extracted
+│   └── data_100
+│       ├── cnn_five_para
+│       ├── FOX_five_para
+│       ├── NYT_five_para
+│       └── WSJ_five_para
+```
 
-├── Dataset_Extracted │ └── data_100 │ ├── cnn_five_para │ ├── FOX_five_para │ ├── NYT_five_para │ └── WSJ_five_para
-
-*Note: Ensure the `DATA_DIR` variable in the script matches your local folder path.*
+> **Note:** Make sure that the DATA_DIR variable in the script matches your local folder path.
 
 ## Usage
 
@@ -44,7 +50,7 @@ The script expects the dataset to be unzipped and organized in the following str
     ```bash
     python gun_violence_analysis.py
     ```
-    *(Or open the notebook and run all cells)*
+    (or just run all cells)
 
 2.  **Process Flow**
     * The script first loads and cleans the text data.
